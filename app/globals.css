@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Geist Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular,
+    Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f4f3;
+  color: #0a0a0a;
+  font-family: var(--font-sans);
+  letter-spacing: -0.02em;
+}
+
+/* Shared description style */
+.mm-desc {
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.code-editor-wrapper *::selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.code-editor-wrapper *::-moz-selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.code-editor-wrapper span {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper code span {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper pre span {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper [class*="token"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper * {
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper pre,
+.code-editor-wrapper code {
+  background-color: #1e1e1e !important;
+}
+
+.code-editor-wrapper .token.keyword,
+.code-editor-wrapper .token.string,
+.code-editor-wrapper .token.function,
+.code-editor-wrapper .token.number,
+.code-editor-wrapper .token.operator,
+.code-editor-wrapper .token.punctuation,
+.code-editor-wrapper .token.comment,
+.code-editor-wrapper .token.variable,
+.code-editor-wrapper .token.property,
+.code-editor-wrapper .token.class-name,
+.code-editor-wrapper .token.boolean,
+.code-editor-wrapper .token.constant,
+.code-editor-wrapper .token.symbol,
+.code-editor-wrapper .token.deleted,
+.code-editor-wrapper .token.selector,
+.code-editor-wrapper .token.attr-name,
+.code-editor-wrapper .token.char,
+.code-editor-wrapper .token.builtin,
+.code-editor-wrapper .token.inserted,
+.code-editor-wrapper .token.namespace,
+.code-editor-wrapper .token.tag {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper span[style*="background"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.code-editor-wrapper pre code {
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+}
+
+.code-editor-wrapper pre {
+  text-indent: 0 !important;
+}
+
+.code-editor-wrapper ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.code-editor-wrapper ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.code-editor-wrapper ::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 5px;
+}
+
+.code-editor-wrapper ::-webkit-scrollbar-thumb:hover {
+  background: #4e4e4e;
+}
+
+.code-editor-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: #424242 transparent;
+}
+
+
