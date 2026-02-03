@@ -28,7 +28,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="absolute top-0 right-0 h-full w-1/2 border-l border-[rgba(0,0,0,0.08)] overflow-hidden">
+        <div className="hidden md:block absolute top-0 right-0 h-full w-1/2 border-l border-[rgba(0,0,0,0.08)] overflow-hidden">
           <div className="relative h-full w-full">
             <img
               src="https://i.pinimg.com/1200x/70/15/b0/7015b08bfdad1c355d8f18c18496258b.jpg"
